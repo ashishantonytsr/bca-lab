@@ -1,3 +1,5 @@
+// Armstrong numbers within a range
+
 import java.io.*;
 import java.lang.Math;
 import java.util.Scanner;
@@ -12,6 +14,7 @@ public class Armstrong
 		low = s.nextInt();
 		high = s.nextInt();
 
+		System.out.print("\nArmstrong numbers within "+low+" and "+high+" is ");
 		for (i = low+1; i < high; ++i)
 		{
 			num=0;
@@ -27,3 +30,10 @@ public class Armstrong
 		System.out.println();
 	}
 }
+
+// Expected output
+/* 
+Enter the lower & upper limit : 99 9999
+
+Armstrong numbers within 99 and 9999 is 153 370 371 407 1634 8208 9474
+*/
