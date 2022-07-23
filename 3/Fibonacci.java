@@ -6,16 +6,15 @@ public class Fibonacci
 {
 	public static void main(String args[])
 	{
-		int f=0, s=1, t, limit;
+		int f=0, s=1, t;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the limit : ");
-		limit = sc.nextInt();
+		int limit = sc.nextInt();
 		System.out.print("\nFibonacci series upto the limit are "+ f +" "+ s);
 		for(int i = 2; i <= limit; i = f + s)
 		{
 			t = f + s;
 			System.out.print(" " + t);
-			t = f + s;
 			f = s; s = t;
 		}
 		System.out.println();
