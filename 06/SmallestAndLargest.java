@@ -1,3 +1,5 @@
+// Display the smallest, largest and second largest number from an array
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -23,3 +25,13 @@ public class SmallestAndLargest{
 		System.out.println("\nSmallest - "+array[0]+"\nLargest - "+array[n-1]+"\nSecond Largest - "+array[n-2]);
 	}
 }
+
+// expected output
+/* 
+Enter the number of elements : 5                       
+Enter the elements into array : 56 32 45 13 40
+
+Smallest - 13
+Largest - 56
+Second Largest - 45 
+*/

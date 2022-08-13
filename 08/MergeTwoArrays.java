@@ -1,3 +1,5 @@
+// Merge two arrays and sort the resulted array
+
 import java.io.*;
 import java.util.Scanner;
 
