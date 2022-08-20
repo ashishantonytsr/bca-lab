@@ -1,19 +1,5 @@
 // Check whether the triangle is equilateral, isosceles or scalene
 
-// Algorithm
-/* 
-1. Start
-2. Read length of three sides of the triangle as 
-	s1, s2, s3 respectively
-3. if s1 = s2 and s2 = s3, 
-	print "Equilateral"
-4. else if s1 = s2 or s2 = s3 or s3 = s1,
-	print "Isosceles"
-5. else
-	print "Scalene"
-6. Stop
-*/
-
 import java.io.*;
 
 public class Triangle
