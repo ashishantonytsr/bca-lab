@@ -84,7 +84,7 @@ public class AccountActivity
 	{
 		Scanner s= new Scanner(System.in);
 		
-		int choice;	short accPin;	float amt; char cont;
+		short accPin;	float amt; char proceed;
 
 		System.out.print("Your Name : ");
 		String name = s.nextLine();
@@ -96,7 +96,7 @@ public class AccountActivity
 
 		do{
 			System.out.println("\n\t0. User Info\n\t1. Deposit\n\t2. Withdraw\n\t3. View Account Balance\n\t4. Exit...");
-			choice = s.nextInt();
+			int choice = s.nextInt();
 			if (choice < 3){
 				System.out.print("Account PIN : ");
 				accPin = s.nextShort();
@@ -126,8 +126,8 @@ public class AccountActivity
 					System.out.println("Invalid Option");
 			}
 			System.out.print("Press 'Y' to continue : ");
-			cont = s.next().charAt(0);
+			proceed = s.next().charAt(0);
 
-		}while (cont == 'y' || cont == 'Y');
+		}while (proceed == 'y' || proceed == 'Y');
 	}
 }
