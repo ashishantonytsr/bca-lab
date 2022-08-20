@@ -11,6 +11,8 @@
 08. **Merge Two Arrays**
 09. **Trace and Transpose of the Matrix**
 10. **Sum and Reverse of a number**
+11. **Sorting an array using Bubble Sort**
+12. **Bank account: Deposit & Withdrawal**
 
 ---
 
