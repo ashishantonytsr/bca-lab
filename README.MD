@@ -14,6 +14,21 @@
 11. **Sorting an array using Bubble Sort**
 12. **Bank account: Deposit & Withdrawal**
 
+
+### To compile java program
+```
+javac program_name.java
+```
+
+### To execute program
+```
+java program_name
+```
+
+*To Compile and Execute the java file, the system should have jdk installed as a requirement*
+
+*To download jdk, [Click Here](https://www.oracle.com/java/technologies/downloads/)*
+
 ---
 
 	-If bugs,errors or any kind of code inconsistencies found, feel free to use the pull request button. :)
