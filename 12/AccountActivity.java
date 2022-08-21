@@ -2,7 +2,6 @@
 
 import java.util.Scanner;
 
-// main class
 public class AccountActivity
 {
 	public static void main(String[] args)
