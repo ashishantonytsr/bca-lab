@@ -32,9 +32,9 @@ public class TraceAndTranspose
 
 		System.out.println("Trace of the matrix is " + trace);
 		System.out.println("Transpose of the matrix");
-		for (int i=0; i<r; i++)
+		for (int i=0; i<c; i++)
 		{
-			for (int j=0; j<c; j++)
+			for (int j=0; j<r; j++)
 				System.out.print(a[j][i] + " ");
 			System.out.println();
 		}
