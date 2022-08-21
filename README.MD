@@ -7,7 +7,7 @@
 04. **Armstrong numbers within a range**
 05. **Equilateral, Isosceles or Scalene triangle**
 06. **Find Largest, Smallest and Second Largest element in an array**
-07. **Base Conversion of numbers**
+07. **Base Conversion of Decimal numbers**
 08. **Merge Two Arrays**
 09. **Trace and Transpose of the Matrix**
 10. **Sum and Reverse of a number**
