@@ -37,6 +37,7 @@ public class MergeTwoArrays
 					result[j+1] = temp;
 				}
 
+		System.out.print("The merged sorted array is : ");
 		for (int i = 0; i < n1+n2; i++)
 				System.out.print(result[i] + " ");
 			System.out.println();
@@ -46,8 +47,9 @@ public class MergeTwoArrays
 
 // expected output
 /* 
-Enter the number of elements in first array : 4      
-Enter the elements into first array : 5 8 7 3
-Enter the number of elements in second array : 3 6 9 2        
-Enter the elements into second array : 2 3 5 6 7 8 9 
+Enter the number of elements in first array : 4
+Enter the elements into first array : 2 5 3 9
+Enter the number of elements in second array : 3
+Enter the elements into second array : 8 7 0
+The merged sorted array is : 0 2 3 5 7 8 9
 */
