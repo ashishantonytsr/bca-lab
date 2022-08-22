@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class BankAccount {
 	private float bankBalance;
-	private short accPIN;
 
 	float getBankBalance(){
 		return this.bankBalance;
