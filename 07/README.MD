@@ -22,6 +22,6 @@
 
 *Step 10* : **While p &#8800; 0, repeat steps 4 to 9**
 
-*Step 09* : **Print array RES in reverse order**
+*Step 11* : **Print array RES in reverse order**
 
-*Step 10* : **Stop**
+*Step 12* : **Stop**
