@@ -10,13 +10,17 @@ public class Fibonacci
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the limit : ");
 		int limit = sc.nextInt();
-		System.out.print("\nFibonacci series upto the limit are "+ f +" "+ s);
-		for(int i = 2; i <= limit; i = f + s)
+		System.out.print("\nFibonacci series upto the limit are ");
+		for(int i = 0; i <= limit; i++)
 		{
-			t = f + s;
-			System.out.print(" " + t);
-			f = s; s = t;
+			if (f <= limit)
+			{
+				System.out.print(" " + f);
+				t = f + s;
+				f = s; s = t;
+			}
 		}
+
 		System.out.println();
 	}
 }

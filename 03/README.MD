@@ -12,7 +12,7 @@
 
 *Step 05* : **While i &le; limit, repeat steps 6 & 7**
 
-*Step 06* : **if limit > f, repeat step 6**
+*Step 06* : **if f &le; limit, repeat step 6**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Print f**
 
