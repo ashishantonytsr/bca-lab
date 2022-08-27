@@ -1,25 +1,26 @@
 @echo off
 
-@REM read args
+@REM command line arguments
 set dir=%1
-set file=%2
+set args0=%2
+set args1=%3
 
-@REM check args
+@REM if no args
 if not defined dir (
-	echo expected argument 'dir_name'
+	echo ---
+	echo please provide folder name
+	echo ---
 	exit \b
-) 
-if not defined file (
-	echo expected argument 'file_name'
-	exit \b
-) 
+)
 
-@REM for java commandLine args
-set args0=%3
-set args1=%4
+@REM fetching java file path from given directory
+for %%f in (.\%dir%\*java) do set file_path=%%f
+
+@REM extracting file name without extension
+for %%i in ("%file_path%") do set file_name=%%~ni
 
 @REM to compile code
-javac -d ./out ./%dir%/%file%.java
+javac -d ./out %file_path%
 
 @REM to execute code
-java -classpath ./out %file% %args0% %args1%
+java -classpath ./out %file_name% %args0% %args1%
