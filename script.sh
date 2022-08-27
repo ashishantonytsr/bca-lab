@@ -1,21 +1,32 @@
 #### !/bin/bash
 
-# read args
+# command line arguments
 dir=$1
-file=$2
+args0=$2
+args1=$3
 
-# check args
-if [ $# -lt 2 ]; then
-  echo "not enough arguments"
-  return
+if [ -z "$1" ] 
+then
+	echo -e "---\nplease provide folder name\n---"
+	return
 fi
 
-# for java commandLine args
-args0=$3
-args1=$4
+# fetching java file path from given directory
+for entry in ./$dir/*.java 
+do
+  file_path=$entry
+done
+
+
+# extracting file name without extension
+file="${file_path%.*}"
+file_name="${file##*/}"
+
+echo "$file_path"
+echo "$file_name"
 
 # to compile code
-javac -d ./out ./$dir/$file.java
+javac -d ./out $file_path
 
 # to execute code
-java -classpath ./out $file $args0 $args1
+java -classpath ./out $file_name $args0 $args1
