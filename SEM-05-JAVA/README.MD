@@ -40,10 +40,12 @@ java file_name
 The repository includes script files to compile and execute java programs. The executable files are written in *shell script* for linux based systems and *batch file* for windows systems.
 #### Windows OS
 ```
+cd SEM-05-JAVA/
 ./exec folder_name
 ```
 #### Linux Based OS
 ```
+cd SEM-05-JAVA/
 . exec.sh folder_name
 ```
 
