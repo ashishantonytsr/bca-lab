@@ -22,8 +22,7 @@ done
 file="${file_path%.*}"
 file_name="${file##*/}"
 
-echo "$file_path"
-echo "$file_name"
+echo -e "$file_name\n---"
 
 # to compile code
 javac -d ./out $file_path

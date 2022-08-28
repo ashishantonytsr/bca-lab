@@ -1,62 +1,59 @@
-## Programs for Fourth Semester Java Programming
+## Programs for Fifth Semester Java Programming
 
 ---
 
-**01 &nbsp;&nbsp;Distance Between Two Points**
+**01 &nbsp;&nbsp;			Distance Between Two Points**
 
-**02 &nbsp;&nbsp;Calculations using CommandLine Arguments**
+**02 &nbsp;&nbsp;			Calculations using CommandLine Arguments**
 
-**03 &nbsp;&nbsp;Fibonacci series upto the limit**
+**03 &nbsp;&nbsp;			Fibonacci series upto the limit**
 
-**04 &nbsp;&nbsp;Armstrong numbers within a range**
+**04 &nbsp;&nbsp;			Armstrong numbers within a range**
 
-**05 &nbsp;&nbsp;Equilateral, Isosceles or Scalene triangle**
+**05 &nbsp;&nbsp;			Equilateral, Isosceles or Scalene triangle**
 
-**06 &nbsp;&nbsp;Find Largest, Smallest and Second Largest element in an array**
+**06 &nbsp;&nbsp;			Find Largest, Smallest and Second Largest element in an array**
 
-**07 &nbsp;&nbsp;Base Conversion of Decimal number**
+**07 &nbsp;&nbsp;			Base Conversion of Decimal number**
 
-**08 &nbsp;&nbsp;Merge Two Arrays**
+**08 &nbsp;&nbsp;			Merge Two Arrays**
 
-**09 &nbsp;&nbsp;Trace and Transpose of the Matrix**
+**09 &nbsp;&nbsp;			Trace and Transpose of the Matrix**
 
-**10 &nbsp;&nbsp;Sum and Reverse of a number**
+**10 &nbsp;&nbsp;			Sum and Reverse of a number**
 
-**11 &nbsp;&nbsp;Sorting an array using Bubble Sort**
+**11 &nbsp;&nbsp;			Sorting an array using Bubble Sort**
 
-**12 &nbsp;&nbsp;Bank account: Deposit & Withdrawal**
+**12 &nbsp;&nbsp;			Bank account: Deposit & Withdrawal**
 
 ---
 
-### To compile java program
+### Compile & Execute
 ```shell
 javac file_name.java
-```
-
-### To execute program
-```
 java file_name
 ```
 *To execute java, the class name and the file name should be same*
 
-### Compile & Execute
+
+### Compile & Execute Using Scripts
 The repository includes script files to compile and execute java programs. The executable files are written in *shell script* for linux based systems and *batch file* for windows systems.
 #### Windows OS
 ```
-./script.bat folder_name
+./exec folder_name
 ```
 #### Linux Based OS
 ```
-. script.sh folder_name
+. exec.sh folder_name
 ```
 
 Example
 ```
 In windows
-./script.bat 01
+./exec 01
 
 In linux
-. script.sh 01
+. exec.sh 01
 ```
 
 
@@ -67,3 +64,16 @@ In linux
 ---
 
 	-If bugs,errors or any kind of code inconsistencies found, feel free to use the pull request button. :)
+
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+<div width="100vw" align="center">
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="ashish-antony-pauly-849929237" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/ashish-antony-pauly-849929237?trk=profile-badge">Ashish Antony Pauly</a>
+</div>
+</div>
+
+
+Follow us on s:
+
+[twitter_follow screen_name="TwitterDev"]()

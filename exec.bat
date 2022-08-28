@@ -19,8 +19,16 @@ for %%f in (.\%dir%\*java) do set file_path=%%f
 @REM extracting file name without extension
 for %%i in ("%file_path%") do set file_name=%%~ni
 
+echo %file_name%
+echo ---
+
 @REM to compile code
 javac -d ./out %file_path%
 
 @REM to execute code
 java -classpath ./out %file_name% %args0% %args1%
+
+@REM to delete byte code after execution
+del .\out\%file_name%.class
+set "file_path="
+set "file_name="
