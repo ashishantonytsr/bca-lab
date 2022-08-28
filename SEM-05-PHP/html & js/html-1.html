@@ -1,0 +1,44 @@
+<!-- HTML Form Elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<style>
+		#slider{
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h2>Your Name is : </h2>
+		<input type="text" name="name" placeholder="Name" list="fav"><br>
+
+		<!-- Slider -->
+		<h2>Your Age is : </h2>
+		<input type="range" id="slider" oninput="age.value = parseInt(slider.value)">
+
+		<!-- Output Tag -->
+		<output name="age" for="slider"></output>
+		<!-- <input type="number" name="age"> -->
+		<br>
+
+		<h2>Your Favorite Player is</h2>
+		<input type="text" name="fav-player" list="fav">
+		
+		<!-- DataList Tag -->
+		<datalist id="fav">
+			<option>Sasi</option>
+			<option>Soman</option>
+			<option>Cassie</option>
+			<option>John</option>
+			<option>David</option>
+			<option>Susan</option>
+		</datalist>
+	</form>
+</body>
+</html>

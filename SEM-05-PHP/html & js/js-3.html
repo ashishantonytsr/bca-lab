@@ -1,0 +1,47 @@
+<!-- Arithmetic Operations -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Calculator</title>
+
+	<script>
+		function calc(){
+			var num1 = Number(document.getElementById("num1").value);
+			var num2 = Number(document.getElementById("num2").value);
+			var oper = document.getElementById("operator").value;
+	
+			if (oper == "add")
+				document.getElementById("result").value = num1 + num2;
+			else if (oper == "sub")
+				document.getElementById("result").value = num1 - num2;
+			else if (oper == "product")
+				document.getElementById("result").value = num1 * num2;
+			else if (oper == "quotient")
+				document.getElementById("result").value = num1 / num2;
+			else
+				document.getElementById("result").value = num1 % num2;
+		}
+	</script>
+</head>
+
+<body>
+	<h2>Arithmetic Operations</h2>
+	<form>
+		<input type="number" placeholder="First Number" id="num1">
+		
+		<select id="operator">
+			<option value="add">+</option>
+			<option value="sub">-</option>
+			<option value="product">*</option>
+			<option value="quotient">/</option>
+			<option value="remainder">%</option>
+		</select>
+
+		<input type="number" placeholder="Second Number" id="num2">
+		
+		<input type="button" value="=" onClick="calc();">
+		<input type="number" placeholder="Result" id="result">
+	</form>
+</body>
+</html>

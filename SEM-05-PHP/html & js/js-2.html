@@ -1,0 +1,24 @@
+<!-- Background color using javascript events -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JS Events</title>
+	
+	<script>
+		function color(id){
+			var bg = new Array();
+			bg[0] = "red";
+			bg[1] = "blue";
+			bg[2] = "green";
+			document.bgColor = bg[id];
+		}
+	</script>
+</head>
+
+<body>
+	<input type="button" value="RED" onMouseOver="color(0);">
+	<input type="button" value="BLUE" onMouseOver="color(1);">
+	<input type="button" value="GREEN" onMouseOver="color(2);">
+</body>
+</html>
