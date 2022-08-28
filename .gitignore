@@ -1,0 +1,8 @@
+# java
+*/out
+*/test
+*.class
+*/.class
+
+# html & js
+*/teachnook
