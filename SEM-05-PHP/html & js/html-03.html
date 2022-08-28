@@ -1,0 +1,50 @@
+<!-- CSS Image Sprite -->
+
+<!-- 
+An image sprite is a collection of images put into a single image.
+A web page with many images can take a long time to load 
+	and generates multiple server requests.
+Using image sprites will reduce the number of 
+	server requests and save bandwidth.
+
+The original image can be found in path ./img/css-sprite.png
+The parts of this image is then used here using css sprite property
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			p{
+				display: inline-flex;
+			}
+			#first {
+				width: 192px;
+				height: 192px;
+				background: url(./img/css-sprite.png) -384px -384px;
+			}
+			#second {
+				width: 192px;
+				height: 192px;
+				background: url(./img/css-sprite.png) 0 -384px;
+			}
+			#third {
+				width: 192px;
+				height: 192px;
+				background: url(./img/css-sprite.png) -384px 384px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container" align="center">
+
+			<h1>CSS Image Sprite</h1>
+
+			<p id="first"  width="1" height="1"></p>
+			<p id="second" width="1" height="1"></p>
+			<p id="third"  width="1" height="1"></p>
+		</div>
+
+	</body>
+</html>
