@@ -6,6 +6,10 @@
 
 **html-01 &nbsp;&nbsp;	Slider, Datalist & Output Tags**
 
+**html-02 &nbsp;&nbsp;	Meter & Progress Tag**
+
+**html-03 &nbsp;&nbsp;	CSS Image Sprite**
+
 ---
 ### JavaScript
 
