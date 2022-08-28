@@ -64,16 +64,3 @@ In linux
 ---
 
 	-If bugs,errors or any kind of code inconsistencies found, feel free to use the pull request button. :)
-
-
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-<div width="100vw" align="center">
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="ashish-antony-pauly-849929237" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/ashish-antony-pauly-849929237?trk=profile-badge">Ashish Antony Pauly</a>
-</div>
-</div>
-
-
-Follow us on s:
-
-[twitter_follow screen_name="TwitterDev"]()
