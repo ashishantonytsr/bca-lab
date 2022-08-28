@@ -1,6 +1,6 @@
 // Merge two arrays and sort the resulted array
 
-import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MergeTwoArrays
@@ -28,20 +28,12 @@ public class MergeTwoArrays
 		for (int k = n1, i = 0; k < n1 + n2;){
 			result[k++] = second[i++];
 		}
-		for (int i=0; i<n1+n2; i++)
-			for (int j=0; j<(n1+n2)-1; j++)
-				if (result[j] > result[j+1])
-				{
-					int temp = result[j];
-					result[j] = result[j+1];
-					result[j+1] = temp;
-				}
+		Arrays.sort(result);
 
 		System.out.print("The merged sorted array is : ");
-		for (int i = 0; i < n1+n2; i++)
-				System.out.print(result[i] + " ");
-			System.out.println();
-	
+		for (int item : result)
+			System.out.print(item + " ");
+		System.out.println();
 	}
 }
 
