@@ -26,6 +26,10 @@
 
 **12 &nbsp;&nbsp;			Bank account: Deposit & Withdrawal**
 
+**13 &nbsp;&nbsp;			Sum of two Complex Numbers**
+
+**14 &nbsp;&nbsp;			Sum of two Time Intervals**
+
 ---
 
 ### Compile & Execute
