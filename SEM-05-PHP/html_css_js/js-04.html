@@ -1,4 +1,4 @@
-<!-- Prime or Not -->
+<!-- Check Prime or Not -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,14 +8,17 @@
 	<script>
 		num = prompt("Enter the number");
 
-		var flag = 0;
-		for (var i=2; i<=num/2; i++){
-			if (num % 2 == 0){
-				flag++;
-				break;
+		if (num <= 1) alert("Neither Prime nor Composite");
+		else{
+			var flag = 0;
+			for (var i=2; i<=num/2; i++){
+				if (num % 2 == 0){
+					flag++;
+					break;
+				}
 			}
+			flag == 0 ? alert("Prime Number") : alert("Not a Prime Number");
 		}
-		flag == 0 ? alert("Prime Number") : alert("Not a Prime Number");
 	</script>
 </head>
 <body>
