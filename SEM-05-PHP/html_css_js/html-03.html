@@ -1,57 +1,44 @@
-<!-- CSS Image Sprite -->
-
-<!-- 
-An image sprite is a collection of images put into a single image.
-A web page with many images can take a long time to load 
-	and generates multiple server requests.
-Using image sprites will reduce the number of 
-	server requests and save bandwidth.
-
- -->
+<!-- Slider, Datalist & Output tags -->
 
 <!DOCTYPE html>
-<html>
-	<head>
-		<style>
-			p{
-				display: inline-flex;
-			}
-			#first {
-				width: 192px;
-				height: 192px;
-				background: url(
-					https://nucleoapp.com/assets/img/premium-icons/colored_48px_social-media.png
-					) -384px -384px;
-			}
-			#second {
-				width: 192px;
-				height: 192px;
-				background: url(
-					https://nucleoapp.com/assets/img/premium-icons/colored_48px_social-media.png
-					) 0 -384px;
-			}
-			#third {
-				width: 192px;
-				height: 192px;
-				background: url(
-					https://nucleoapp.com/assets/img/premium-icons/colored_48px_social-media.png
-				) -384px 384px;
-			}
-		</style>
-	</head>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<style>
+		#slider{
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h2>Your Name is : </h2>
+		<input type="text" name="name" placeholder="Name" list="fav"><br>
 
-	<body>
-		<div class="container" align="center">
-			<h1>CSS Image Sprite</h1>
+		<!-- Slider -->
+		<h2>Your Age is : </h2>
+		<input type="range" id="slider" oninput="age.value = parseInt(slider.value)">
 
-			<p id="first"  width="1" height="1"></p>
-			<p id="second" width="1" height="1"></p>
-			<p id="third"  width="1" height="1"></p>
-			<br>
-			<a href="https://nucleoapp.com/assets/img/premium-icons/colored_48px_social-media.png">
-				Original Image
-			</a>
-		</div>
+		<!-- Output Tag -->
+		<output name="age" for="slider"></output>
+		<!-- <input type="number" name="age"> -->
+		<br>
 
-	</body>
+		<h2>Your Favorite Player is</h2>
+		<input type="text" name="fav-player" list="fav">
+		
+		<!-- DataList Tag -->
+		<datalist id="fav">
+			<option>Sasi</option>
+			<option>Soman</option>
+			<option>Cassie</option>
+			<option>John</option>
+			<option>David</option>
+			<option>Susan</option>
+		</datalist>
+	</form>
+</body>
 </html>

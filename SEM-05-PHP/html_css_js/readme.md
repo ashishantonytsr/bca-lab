@@ -5,11 +5,15 @@
 
 ### HTML
 
-**[html-01](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/html-01.html) &nbsp;&nbsp;	Slider, Datalist & Output Tags**
+**[html-01](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/html-01.html) &nbsp;&nbsp;	Form: Text input, Submit & Reset buttons**
 
-**[html-02](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/html-02.html) &nbsp;&nbsp;	Meter & Progress Tag**
+**[html-02](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/html-02.html) &nbsp;&nbsp;	Form: Checkbox, Radio button & Select box**
 
-**[html-03](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/html-03.html) &nbsp;&nbsp;	CSS Image Sprite**
+**[html-03](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/html-03.html) &nbsp;&nbsp;	Slider, Datalist & Output Tags**
+
+**[html-04](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/html-04.html) &nbsp;&nbsp;	Meter & Progress Tag**
+
+**[html-05](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/html-05.html) &nbsp;&nbsp;	CSS Image Sprite**
 
 ---
 ### JavaScript

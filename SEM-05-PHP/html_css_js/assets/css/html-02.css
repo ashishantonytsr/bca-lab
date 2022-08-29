@@ -1,0 +1,39 @@
+body{
+	border: 3px solid bisque;
+}
+
+form{
+	border: 2px solid bisque;
+	padding: 30px;
+}
+
+input[type="text"]{
+	outline: none;
+	border: 2px solid black;
+	border-radius: 15px;
+	min-width: 256px;
+	height: 40px;
+	margin: 10px;
+	text-align: center;
+}
+label{
+	text-align: center;
+	font-size: larger;
+	font-family: sans-serif;
+}
+
+input[type="submit"]{
+	border: 2px solid green;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+input[type="reset"]{
+	border: 2px solid red;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px 20px;
+	text-align: center;
+}

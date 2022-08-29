@@ -1,32 +1,35 @@
-<!-- Meter & Progress Tag -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Meter & Progress</title>
-
-	<style>
-		meter{
-			width: 65%;
-			height: 30px;
-		}
-		progress{
-			width: 60%;
-			height: 30px;
-		}
-	</style>
+	<title>Form Elements</title>
+	<link href="./assets/css/html-02.css" rel="stylesheet">
 </head>
-
 <body>
-	<h1 align="center">Meter & Progress Tag</h1>
-
 	<div align="center">
-		<h2>Meter tag</h2>
-		<meter value="75" min="0" max="100" low="20" high="80">	</meter>
+		<h2>Enter Your Details</h2>
+		<form>
+			<label for="name">Your Name</label>
+			<br>
+			<input type="text">
+			
+			<br><br>
+			<label for="gender">Gender</label>
+			<br>
+			<input type="radio" name="gender" value="m">Male
+			<input type="radio" name="gender" value="f">Female
+			<br><br>
+			
+			<label for="lang">Languages Known</label>
+			<br>
+			<input type="checkbox" name="lang" value="eng">English
+			<input type="checkbox" name="lang" value="eng">Malayalam
+			<input type="checkbox" name="lang" value="hin">Hindi
+			<br><br>
+			
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
 
-		<h2>Progress Element</h2>
-		<progress value="40" max="100">40%</progress>
+		</form>
 	</div>
-
 </body>
 </html>
