@@ -1,0 +1,24 @@
+<!-- Prime or Not -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Check Prime</title>
+
+	<script>
+		num = prompt("Enter the number");
+
+		var flag = 0;
+		for (var i=2; i<=num/2; i++){
+			if (num % 2 == 0){
+				flag++;
+				break;
+			}
+		}
+		flag == 0 ? alert("Prime Number") : alert("Not a Prime Number");
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
