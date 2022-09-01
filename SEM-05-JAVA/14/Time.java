@@ -21,30 +21,30 @@ public class Time {
 	}
 
 	Time sumTimeInterval(Time a, Time b){
-		Time taim = new Time();
+		Time t = new Time();
 
 		int secSum = a.seconds + b.seconds;
 		int minSum = a.minutes + b.minutes;
 		int hourSum = a.hours + b.hours;
 
 		// seconds
-		if (secSum < 60)	taim.seconds = secSum;
+		if (secSum < 60)	t.seconds = secSum;
 		else{
 			minSum++;
-			taim.seconds = Math.abs( 60 - secSum );
+			t.seconds = Math.abs( 60 - secSum );
 		}
 
 		// minutes
-		if (minSum < 60)	taim.minutes = minSum;
+		if (minSum < 60)	t.minutes = minSum;
 		else{
 			hourSum++;
-			taim.minutes = Math.abs( 60 - minSum );
+			t.minutes = Math.abs( 60 - minSum );
 		}
 		
 		// hours
-		taim.hours = (hourSum < 24) ? hourSum : Math.abs( 24 - hourSum );
+		t.hours = (hourSum < 24) ? hourSum : Math.abs( 24 - hourSum );
 		
-		return taim;
+		return t;
 	}
 
 	public static void main(String[] args) {
