@@ -22,26 +22,20 @@ final class BankAccount {
 			System.out.println("Not Enough Balance");
 	}
 
-	void getUserInfo(){
-		System.out.println("---\nAccount Number : " + this.accountNumber);
-		System.out.println("Account Holder Name : " + this.accountHolder);
-		System.out.println("Account Type : " + this.accountType + "\n---");
-	}
-
 	// main method
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);
-		BankAccount SavingsAccount = new BankAccount();
+		BankAccount newAccount = new BankAccount();
 		
 		System.out.print("Your Name : ");
-		SavingsAccount.accountHolder = s.nextLine();
+		newAccount.accountHolder = s.nextLine();
 
 		System.out.print("Account Type (Savings/Current) : ");
-		SavingsAccount.accountType = s.nextLine();
+		newAccount.accountType = s.nextLine();
 		
 		System.out.print("Your Account Number : ");
-		SavingsAccount.accountNumber = s.nextLong();
+		newAccount.accountNumber = s.nextLong();
 		
 		char proceed;
 		do{
@@ -49,21 +43,18 @@ final class BankAccount {
 			int choice = s.nextInt();
 
 			switch(choice){
-				case 0:
-					SavingsAccount.getUserInfo();
-					break;
 				case 1: 
 					System.out.print("Deposit Amount : ");
 					double dAmt = s.nextDouble();
-					SavingsAccount.deposit(dAmt);
+					newAccount.deposit(dAmt);
 					break;
 				case 2: 
 					System.out.print("Enter the Amount : ");
 					double wAmt = s.nextDouble();
-					SavingsAccount.withdraw(wAmt);
+					newAccount.withdraw(wAmt);
 					break;
 				case 3:
-					System.out.println("Your account balance is "+ SavingsAccount.bankBalance);
+					System.out.println("Your account balance is "+ newAccount.bankBalance);
 					break;
 				case 4:
 					System.out.println("\nThanks for using our service ... ");
