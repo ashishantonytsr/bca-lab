@@ -9,7 +9,7 @@ public class ComplexNumber {
 		this.imaginary = imaginary;
 	}
 
-	ComplexNumber addComplex(ComplexNumber a, ComplexNumber b){
+	static ComplexNumber addComplex(ComplexNumber a, ComplexNumber b){
 		ComplexNumber sum = new ComplexNumber(0, 0);
 		sum.real = a.real + b.real;
 		sum.imaginary = a.imaginary + b.imaginary;
@@ -23,8 +23,7 @@ public class ComplexNumber {
 		ComplexNumber b = new ComplexNumber(5, 3);
 		System.out.println("Second Number : " + b.real +" + "+ b.imaginary + "i");
 
-		ComplexNumber c = new ComplexNumber(0, 0);
-		c = c.addComplex(a, b);
+		ComplexNumber c = addComplex(a, b);
 		System.out.println("Sum of Numbers : " + c.real +" + "+ c.imaginary + "i");
 	}
 }

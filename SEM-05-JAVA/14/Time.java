@@ -14,7 +14,7 @@ public class Time {
 		this.seconds = seconds;
 	}
 
-	Time sumTimeInterval(Time a, Time b){
+	static Time sumTimeInterval(Time a, Time b){
 		Time t = new Time(0, 0, 0);
 		
 		int secSum = a.seconds + b.seconds;
@@ -49,8 +49,7 @@ public class Time {
 		Time t2 = new Time(18, 59, 59);
 		System.out.println("Time 02 : " + t2.hours + ":" + t2.minutes + ":" + t2.seconds);
 		
-		Time timeSum = new Time(0, 0, 0);
-		timeSum = timeSum.sumTimeInterval(t1, t2);
+		Time timeSum = sumTimeInterval(t1, t2);
 		System.out.println("Sum of time : " + 
 			timeSum.hours + ":" + timeSum.minutes + ":" + timeSum.seconds);
 	}
