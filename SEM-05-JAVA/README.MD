@@ -30,6 +30,12 @@
 
 **14 &nbsp;&nbsp;			Sum of two Time Intervals**
 
+**15 &nbsp;&nbsp;			Total mark & grade of a student**
+
+**16 &nbsp;&nbsp;			Volume of shapes using method overloading**
+
+**17 &nbsp;&nbsp;			Order of constructor in multi-level inheritance**
+
 ---
 
 ### Compile & Execute
