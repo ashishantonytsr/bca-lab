@@ -1,6 +1,11 @@
 import java.applet.*;
 import java.awt.*;
 
+/* 
+<applet code=Smiley.class width=500 height=500>
+</applet>
+*/
+
 public class Smiley {
 	public void paint (Graphics g) {
 		g.drawOval(80, 70, 150, 150);
