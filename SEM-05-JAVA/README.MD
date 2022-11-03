@@ -36,6 +36,14 @@
 
 **17 &nbsp;&nbsp;			Order of constructor in multi-level inheritance**
 
+**18 &nbsp;&nbsp;			Applet for displaying Smiling Face**
+
+**19 &nbsp;&nbsp;			Multi-Thread java program to display odd & even numbers**
+
+**20 &nbsp;&nbsp;			AWT Application to implement a list box**
+
+**21 &nbsp;&nbsp;			Track Keyboard events on an Applet**
+
 ---
 
 ### Compile & Execute
