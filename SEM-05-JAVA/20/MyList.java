@@ -1,3 +1,5 @@
+// AWT Application to implement a list box
+
 import javax.swing.*;
 import javax.swing.event.*;
 import java.awt.*;
