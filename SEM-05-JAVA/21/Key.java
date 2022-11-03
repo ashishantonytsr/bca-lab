@@ -21,7 +21,7 @@ public class Key extends Applet implements KeyListener{
 
 	public void keyPressed(KeyEvent k) {
 		showStatus("KeyDown");
-		int key = k.getKeyCode()
+		int key = k.getKeyCode();
 
 		switch(key) {
 			case KeyEvent.VK_UP: 
