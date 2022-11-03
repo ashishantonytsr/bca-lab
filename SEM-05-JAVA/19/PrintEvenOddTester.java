@@ -22,11 +22,18 @@ class TaskEvenOdd implements Runnable {
 	}
 
 	public void run() {
-		for (int n = isEvenNumber == true ? 2 : 1; n <= max; n += 2) {
-			if (isEvenNumber == true)
+		int n = isEvenNumber == true ? 2 : 1;
+		
+		while (n <= max) {
+			if (isEvenNumber == true) {
 				print.printEven(n);
-			else
+				System.out.println(Thread.currentThread().getName());
+			}
+			else {
 				print.printOdd(n);
+				System.out.println(Thread.currentThread().getName());
+			}
+			n += 2;
 		}
 	}
 }
