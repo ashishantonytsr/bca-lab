@@ -1,5 +1,4 @@
 // Order of Constructors in multi-level inheritance
-// NOTE : NOT SURE ABOUT THE PROGRAM; COPY AT YOUR OWN RISK
 
 class Shape {
 	Shape() {

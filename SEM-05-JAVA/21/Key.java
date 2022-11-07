@@ -1,3 +1,5 @@
+// Track Keyboard events on an Applet
+
 import java.awt.*;
 import java.awt.event.*;
 import java.applet.*;
@@ -15,12 +17,14 @@ public class Key extends Applet implements KeyListener{
 		addKeyListener(this);
 		requestFocus();
 		
-		setBackground(Color.GREEN);
-		setForeground(Color.BLUE);
+		setBackground(Color.GRAY);
+		setForeground(Color.WHITE);
 	}
 
 	public void keyPressed(KeyEvent k) {
 		showStatus("KeyDown");
+		setBackground(Color.GREEN);
+
 		int key = k.getKeyCode();
 
 		switch(key) {
@@ -42,6 +46,7 @@ public class Key extends Applet implements KeyListener{
 
 	public void keyReleased(KeyEvent k) {
 		showStatus("Key UP");
+		setBackground(Color.GRAY);
 	}
 
 	public void keyTyped(KeyEvent k) {

@@ -1,3 +1,5 @@
+// Multi-Thread java program to display odd & even numbers
+
 public class PrintEvenOddTester {
 	public static void main(String[] args) {
 		Printer print = new Printer();
@@ -26,12 +28,12 @@ class TaskEvenOdd implements Runnable {
 		
 		while (n <= max) {
 			if (isEvenNumber == true) {
-				print.printEven(n);
 				System.out.println(Thread.currentThread().getName());
+				print.printEven(n);
 			}
 			else {
-				print.printOdd(n);
 				System.out.println(Thread.currentThread().getName());
+				print.printOdd(n);
 			}
 			n += 2;
 		}
@@ -55,7 +57,7 @@ class Printer {
 		notifyAll();
 	}
 
-	synchronized void printOdd(int number) {
+	 synchronized void printOdd(int number) {
 		while (isOdd) {
 			try {
 				wait();
