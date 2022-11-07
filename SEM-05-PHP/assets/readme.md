@@ -27,3 +27,22 @@
 **[js-04](https://codebeautify.org/real-time-html-editor?url=https://raw.githubusercontent.com/ashishantonytsr/bca-lab/origin/SEM-05-PHP/html_css_js/js-04.html) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Check Prime or Not**
 
 ---
+
+--html
+1. form input controls
+2. checkbox, radio buttons
+
+--js
+3. area of circle
+4. color palette
+5. arithmetic operations
+
+--php
+6. Biodata
+7. Fruit list
+8. Perfect no.
+9. Armstrong no.
+10. Fibonacci
+11. Meter
+12. Cookie
+13. Array fns
