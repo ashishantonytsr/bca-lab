@@ -2,28 +2,28 @@
 
 ---
 
-**01 &nbsp;&nbsp;			Form Input Controls**
+**01 &emsp;		Form Input Controls**
 
-**02 &nbsp;&nbsp;			Check box, Radio button & Select box**
+**02 &emsp;		Check box, Radio button & Select box**
 
-**03 &nbsp;&nbsp;			Area & Circumference of circle**
+**03 &emsp;		Area & Circumference of circle**
 
-**04 &nbsp;&nbsp;			Color Palette**
+**04 &emsp;		Color Palette**
 
-**05 &nbsp;&nbsp;			Arithmetic Operations**
+**05 &emsp;		Arithmetic Operations**
 
-**06 &nbsp;&nbsp;			Fruits List**
+**06 &emsp;		Fruits List**
 
-**07 &nbsp;&nbsp;			Biodata**
+**07 &emsp;		Bio-Data**
 
-**08 &nbsp;&nbsp;			Perfect Number**
+**08 &emsp;		Perfect Number**
 
-**09 &nbsp;&nbsp;			Armstrong Number**
+**09 &emsp;		Armstrong Number**
 
-**10 &nbsp;&nbsp;			Fibonacci Series**
+**10 &emsp;		Fibonacci Series**
 
-**11 &nbsp;&nbsp;			Meter Tag**
+**11 &emsp;		Meter Tag**
 
-**12 &nbsp;&nbsp;			Cookie**
+**12 &emsp;		Cookie**
 
-**13 &nbsp;&nbsp;			Array Functions**
+**13 &emsp;		Array Functions**
