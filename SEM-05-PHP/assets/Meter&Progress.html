@@ -1,0 +1,50 @@
+<!-- Meter & Progress Tag -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Meter & Progress</title>
+
+	<style>
+		meter{
+			width: 65%;
+			height: 30px;
+		}
+		progress{
+			width: 60%;
+			height: 30px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<h1 align="center">Meter & Progress Tag</h1>
+
+	<div align="center">
+		<h2>Meter tag</h2>
+		<meter value="75" min="0" max="100" low="20" high="80" id="meter">	</meter>
+
+		<h2>Progress Element</h2>
+		<progress value="40" max="100" id="progress">40%</progress>
+
+		<br>
+		<button onclick="setInterval(meterElement,1000)">Meter</button>
+		<button onclick="setInterval(progressElement,500)">Progress</button>
+	</div>
+
+	<script>
+		const meterElement = ()=> {
+			meterValue = document.getElementById('meter').value;
+			meterValue < 100 ? meterValue++ : meterValue = 0;
+			document.getElementById('meter').value = meterValue;
+		}
+
+		const progressElement = ()=> {
+			progressValue = document.getElementById('progress').value;
+			progressValue < 100 ? progressValue++ : progressValue = 0;
+			document.getElementById('progress').value = progressValue;
+		}
+	</script>
+</body>
+</html>
