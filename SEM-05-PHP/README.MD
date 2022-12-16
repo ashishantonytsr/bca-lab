@@ -27,3 +27,5 @@
 **12 &emsp;		Cookie**
 
 **13 &emsp;		Array Functions**
+
+**14 &emsp;		Inserting values into Product database**
