@@ -1,4 +1,4 @@
-# Radius & Perimeter of Circle
+# Area & Circumference of Circle
 
 # !/bin/bash
 echo "Enter the radius"
