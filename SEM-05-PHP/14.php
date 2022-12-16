@@ -16,16 +16,14 @@
 
 	<?php
 
-		$con_str = "host=localhost port=5432 user=ashish password=ashish.10 dbname=ashish";
-		$con = pg_connect($con_str);
+		$con = pg_connect("host=localhost user=postgres password=postgres dbname=ashish");
 
 		if (isset($_POST['sub_btn'])) {	
 			$icode = $_POST['icode'];
 			$iname = $_POST['iname'];
 			$iprice = $_POST['iprice'];
 
-			$insert_query = "insert into products(icode, iname, iprice) 
-												values($icode, '$iname', $iprice)";
+			$insert_query = "insert into products(icode, iname, iprice) values($icode, '$iname', $iprice)";
 			$insert_query_result = pg_query($con, $insert_query);
 			if (!$insert_query_result) 
 				echo "Error: Couldn't insert values into database";
