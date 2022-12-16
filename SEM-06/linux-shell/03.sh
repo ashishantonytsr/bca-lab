@@ -13,3 +13,10 @@ then
 else
 	echo "$n3 is greater"
 fi
+
+
+# Expected output
+# ---
+# Enter three numbers
+# 4 7 5
+# 7 is greater
