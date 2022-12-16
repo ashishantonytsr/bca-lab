@@ -1,8 +1,5 @@
 # java
-*/test
+*/test/
 **/test
 *.class
 */.class
-
-# html & js
-*/teachnook
