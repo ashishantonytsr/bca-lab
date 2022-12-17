@@ -2,47 +2,27 @@
 
 ---
 
-**01 &nbsp;&nbsp;			Distance Between Two Points**
-
-**02 &nbsp;&nbsp;			Calculations using CommandLine Arguments**
-
-**03 &nbsp;&nbsp;			Fibonacci series upto the limit**
-
-**04 &nbsp;&nbsp;			Armstrong numbers within a range**
-
-**05 &nbsp;&nbsp;			Equilateral, Isosceles or Scalene triangle**
-
-**06 &nbsp;&nbsp;			Find Largest, Smallest and Second Largest element in an array**
-
-**07 &nbsp;&nbsp;			Base Conversion of Decimal number**
-
-**08 &nbsp;&nbsp;			Merge Two Arrays**
-
-**09 &nbsp;&nbsp;			Trace and Transpose of the Matrix**
-
-**10 &nbsp;&nbsp;			Sum and Reverse of a number**
-
-**11 &nbsp;&nbsp;			Sorting an array using Bubble Sort**
-
-**12 &nbsp;&nbsp;			Bank account: Deposit & Withdrawal**
-
-**13 &nbsp;&nbsp;			Sum of two Complex Numbers**
-
-**14 &nbsp;&nbsp;			Sum of two Time Intervals**
-
-**15 &nbsp;&nbsp;			Total mark & grade of a student**
-
-**16 &nbsp;&nbsp;			Volume of shapes using method overloading**
-
-**17 &nbsp;&nbsp;			Order of constructor in multi-level inheritance**
-
-**18 &nbsp;&nbsp;			Applet for displaying Smiling Face**
-
-**19 &nbsp;&nbsp;			Multi-Thread java program to display odd & even numbers**
-
-**20 &nbsp;&nbsp;			AWT Application to implement a list box**
-
-**21 &nbsp;&nbsp;			Track Keyboard events on an Applet**
+01. &emsp; **Distance Between Two Points**
+02. &emsp; **Calculations using CommandLine Arguments**
+03. &emsp; **Fibonacci series upto the limit**
+04. &emsp; **Armstrong numbers within a range**
+05. &emsp; **Equilateral, Isosceles or Scalene triangle**
+06. &emsp; **Find Largest, Smallest and Second Largest element in an array**
+07. &emsp; **Base Conversion of Decimal number**
+08. &emsp; **Merge Two Arrays**
+09. &emsp; **Trace and Transpose of the Matrix**
+10. &emsp; **Sum and Reverse of a number**
+11. &emsp; **Sorting an array using Bubble Sort**
+12. &emsp; **Bank account: Deposit & Withdrawal**
+13. &emsp; **Sum of two Complex Numbers**
+14. &emsp; **Sum of two Time Intervals**
+15. &emsp; **Total mark & grade of a student**
+16. &emsp; **Volume of shapes using method overloading**
+17. &emsp; **Order of constructor in multi-level inheritance**
+18. &emsp; **Applet for displaying Smiling Face**
+19. &emsp; **Multi-Thread java program to display odd & even numbers**
+20. &emsp; **AWT Application to implement a list box**
+21. &emsp; **Track Keyboard events on an Applet**
 
 ---
 
