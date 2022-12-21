@@ -1,41 +1,39 @@
 # Menu based Calculator
 
 # !/bin/bash
-echo -e "====\nMENU\n----"
-echo -e "1. Addition \n2. Substraction \n3. Multiplication \n4. Division"
-read -p "Enter your Choice >> " choice
+var=0
 
-
-if [ $choice -gt 0 ] && [ $choice -lt 5 ]; then
+while [ $var -eq 0 ]
+do
+	echo -e "---\n1. Addition \n2. Substraction \n3. Multiplication \n4. Division"
+	read -p "Enter your Choice >> " choice
 
 	read -p "Enter number 1: " num1
 	read -p "Enter number 2: " num2
 
-	if [ $choice -eq 1 ]; then
+	case $choice in
+	1)
 		result=$(echo "$num1 + $num2" | bc)
-	elif [ $choice -eq 2 ]; then
+		;;
+	2)
 		result=$(echo "$num1 - $num2" | bc)
-	elif [ $choice -eq 3 ]; then
+		;;
+	3)
 		result=$(echo "$num1 * $num2" | bc)
-	elif [ $choice -eq 4 ]; then
+		;;
+	4)
 		result=$(echo "scale=2; $num1 / $num2" | bc)
-	else
-		echo "Invalid Option"
+		;;
+	*)
+		var=$(( $var + 1 ))
+		;;
+	esac
+
+	echo -e "\nThe result is : $result\n"
+
+	read -p "Do you wish to continue? (Y/N) : " cont
+	if [ $cont != 'y' ] && [ $cont != 'Y' ]; then
 		exit
 	fi
 
-echo "The result is : $result"
-fi
-
-
-# ====
-# MENU
-# ----
-# 1. Addition
-# 2. Substraction
-# 3. Multiplication
-# 4. Division
-# Enter your Choice >> 4
-# Enter number 1: 8
-# Enter number 2: 9
-# The result is : .88
+done
