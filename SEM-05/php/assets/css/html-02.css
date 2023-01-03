@@ -1,5 +1,5 @@
 body{
-	border: 3px solid bisque;
+	border: 2px solid bisque;
 }
 
 form{
@@ -9,10 +9,10 @@ form{
 
 input[type="text"]{
 	outline: none;
-	border: 2px solid black;
-	border-radius: 15px;
+	border: 1px solid black;
+	border-radius: 4px;
 	min-width: 256px;
-	height: 40px;
+	height: 25px;
 	margin: 10px;
 	text-align: center;
 }
@@ -23,17 +23,17 @@ label{
 }
 
 input[type="submit"]{
-	border: 2px solid green;
-	border-radius: 15px;
+	border: 1px solid green;
+	border-radius: 4px;
 	margin: 10px;
-	padding: 10px 20px;
+	padding: 8px 20px;
 	text-align: center;
 }
 
 input[type="reset"]{
-	border: 2px solid red;
-	border-radius: 15px;
+	border: 1px solid red;
+	border-radius: 4px;
 	margin: 10px;
-	padding: 10px 20px;
+	padding: 8px 20px;
 	text-align: center;
 }
