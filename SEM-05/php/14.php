@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- Inserting values into table Product -->
+
+<html>
 <head>
-	<title>Product DB</title>
+	<title>Product Database</title>
 </head>
 <body>
 	<center>
