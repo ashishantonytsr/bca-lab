@@ -1,10 +1,7 @@
 # Menu driven Calculator
 
 # !/bin/bash
-var=0
-
-while [ $var -eq 0 ]
-do
+while
 	echo -e "---\n1. Addition \n2. Substraction \n3. Multiplication \n4. Division"
 	read -p "Enter your Choice >> " choice
 
@@ -27,13 +24,9 @@ do
 		;;
 	*)
 		echo -e "\nInvalid Option"
-		var=$(( $var + 1 ))
 		;;
 	esac
 
 	read -p "Do you wish to continue? (Y/N) : " cont
-	if [ $cont != 'y' ] && [ $cont != 'Y' ]; then
-		exit
-	fi
-
-done
+	[ $cont == 'y' ] || [ $cont == 'Y' ] # condition
+do :; done
