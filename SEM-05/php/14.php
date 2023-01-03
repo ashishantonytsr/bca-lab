@@ -15,8 +15,7 @@
 	</form>
 
 	<?php
-
-		$con = pg_connect("host=localhost user=postgres password=postgres dbname=ashish");
+		$con = pg_connect("host=localhost user=postgres password=postgres dbname=dbc_php");
 
 		if (isset($_POST['sub_btn'])) {	
 			$icode = $_POST['icode'];
@@ -44,7 +43,6 @@
 			echo "</table>";
 		}
 	?>
-
 	</center>
 </body>
 </html>
