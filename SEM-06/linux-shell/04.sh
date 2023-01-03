@@ -1,4 +1,4 @@
-# Menu based Calculator
+# Menu driven Calculator
 
 # !/bin/bash
 var=0
@@ -13,23 +13,23 @@ do
 
 	case $choice in
 	1)
-		result=$(echo "$num1 + $num2" | bc)
+		echo -e "\nThe result is  $(($num1 + $num2))"
 		;;
 	2)
-		result=$(echo "$num1 - $num2" | bc)
+		echo -e "\nThe result is  $(($num1 - $num2))"
 		;;
 	3)
-		result=$(echo "$num1 * $num2" | bc)
+		echo -e "\nThe result is  $(($num1 * $num2))"
 		;;
 	4)
 		result=$(echo "scale=2; $num1 / $num2" | bc)
+		echo -e "\nThe result is  $result"
 		;;
 	*)
+		echo -e "\nInvalid Option"
 		var=$(( $var + 1 ))
 		;;
 	esac
-
-	echo -e "\nThe result is : $result\n"
 
 	read -p "Do you wish to continue? (Y/N) : " cont
 	if [ $cont != 'y' ] && [ $cont != 'Y' ]; then
