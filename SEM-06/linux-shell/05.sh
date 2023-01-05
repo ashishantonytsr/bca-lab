@@ -11,10 +11,10 @@ do
 	sum=$(($sum + $dig))
 done
 
-echo $sum
+echo "The sum of digits is $sum"
 
 
 # Expected output
 # ---
 # Enter the number : 345
-# 12
+# The sum of digits is 12

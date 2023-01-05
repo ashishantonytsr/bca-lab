@@ -3,9 +3,7 @@
 # !/bin/bash
 read -p "Enter the number: " num
 
-num_mod_2=$(echo "$num % 2" | bc)
-
-if [ $num_mod_2 -eq 0 ]
+if [[ $num%2 -eq 0 ]]
 then
 	echo "Even Number"
 else
