@@ -17,3 +17,9 @@
 13. &emsp; **Array Functions**
 14. &emsp; **Inserting values into table Product**
 15. &emsp; **Student Marklist**
+16. &emsp; **Prime number or not**
+17. &emsp; **Login Page using DB**
+18. &emsp; **Keygen Element**
+19. &emsp; **Upload file**
+20. &emsp; **Login session**
+21. &emsp; **Delete & Update Database**
