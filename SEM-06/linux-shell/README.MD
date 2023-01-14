@@ -9,3 +9,5 @@
 05. &emsp; **Sum of digits in a number**
 06. &emsp; **Fibonacci series of N numbers**
 07. &emsp; **Prime numbers upto a limit**
+08. &emsp; **Factorial of a number**
+09. &emsp; **Mean, Variance & Standard Deviation**
