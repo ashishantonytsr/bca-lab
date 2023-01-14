@@ -2,7 +2,9 @@
 
 # !/bin/bash
 echo "Enter three numbers"
-read n1 n2 n3
+read n1
+read n2
+read n3
 
 if [ $n1 -gt $n2 ] && [ $n1 -gt $n3 ]
 then
@@ -18,5 +20,7 @@ fi
 # Expected output
 # ---
 # Enter three numbers
-# 4 7 5
+# 4
+# 7
+# 5
 # 7 is greater
