@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Keygen</title>
+	<title>File Upload</title>
 </head>
 <body>
 	<form action=" " method="post" enctype="multipart/form-data">
