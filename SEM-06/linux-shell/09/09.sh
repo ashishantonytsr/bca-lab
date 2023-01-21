@@ -11,11 +11,9 @@ mean=$(( (n1+n2+n3)/3 ))
 x=$(( (n1-mean)**2 ))
 y=$(( (n2-mean)**2 ))
 z=$(( (n3-mean)**2 ))
-variance=$(echo "scale=2; ($x+$y+$z)/3" |bc)
-sd=$(echo "scale=2; sqrt($variance)" |bc)
+sd=$(echo "scale=2; sqrt(($x+$y+$z)/3)" |bc)
 
 echo "Mean is $mean"
-echo "variance is $variance"
 echo "Standard deviation is $sd"
 
 
@@ -26,5 +24,4 @@ echo "Standard deviation is $sd"
 # 12
 # 23
 # Mean is 15
-# variance is 32.66
 # Standard deviation is 5.71
