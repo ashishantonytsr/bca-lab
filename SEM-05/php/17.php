@@ -17,7 +17,7 @@
 			$user = $_POST['user'];
 			$password = $_POST['password'];
 
-			$con = pg_connect("host=localhost user=postgres password=ashish.10 dbname=ashish");
+			$con = pg_connect("host=localhost user=postgres password=postgres dbname=dbc_php");
 			if ($con) {
 				$query = "select * from login where username='$user' and password='$password'";
 				$result = pg_query($con, $query);

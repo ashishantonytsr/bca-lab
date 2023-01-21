@@ -10,7 +10,6 @@
 		Username <input type="text" name="user"><br>
 		Password <input type="password" name="password"><br>
 		<input type="submit" value="Submit" name="submit" >
-		<!-- <a href="session_logout.php">Click here to clean</a> -->
 		<input type="submit" value="Session Logout" name="logout">
 	</form>
 
@@ -19,7 +18,7 @@
 			$user = $_POST['user'];
 			$password = $_POST['password'];
 
-			$con = pg_connect("host=localhost user=postgres password=ashish.10 dbname=ashish");
+			$con = pg_connect("host=localhost user=postgres password=postgres dbname=dbc_php");
 			if ($con) {
 				$query = "select * from login where username='$user' and password='$password'";
 				$result = pg_query($con, $query);
