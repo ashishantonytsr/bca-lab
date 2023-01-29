@@ -14,3 +14,5 @@
 10. &emsp; **Armstrong number**
 11. &emsp; **Reverse of a number**
 12. &emsp; **Palindrome String**
+13. &emsp; **Number of characters, words & lines in a file**
+14. &emsp; **Gross Salary**
