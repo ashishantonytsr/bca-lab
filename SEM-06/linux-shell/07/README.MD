@@ -7,7 +7,7 @@
 *Step 03* : **Set num= 2**\
 *Step 04* : **while num &le; limit, repeat steps 5 to 10**\
 *Step 05* : **Set isPrime= 1 & i= 2**\
-*Step 06* : **while &le; num/2, repeat steps 7 & 8**\
+*Step 06* : **while i &le; num/2, repeat steps 7 & 8**\
 *Step 07* : **if num % i = 0,**\
 &emsp;&emsp;&emsp;&emsp; **Increment isPrime by 1**\
 &emsp;&emsp;&emsp;&emsp; **goto step 9**\
