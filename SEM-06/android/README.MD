@@ -12,3 +12,7 @@
 08. &emsp; **Addition of Two Numbers**
 09. &emsp; **IP Address**
 10. &emsp; **Multiplication Table**
+11. &emsp; **Spinner**
+12. &emsp; **Alert Dialog**
+13. &emsp; **List View**
+14. &emsp; **Menu Resource**
