@@ -1,35 +1,28 @@
 public class MainActivity extends AppCompatActivity {
-	Spinner spinner;
-	Button btn;
-	String[] friends = { "Thomas Shelby", "Walter White", "Johny Deep" };
+    String[] spinnerItems = { "ANDROID", "PHP" };
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-			super.onCreate(savedInstanceState);
-			setContentView(R.layout.activity_main);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-			btn = (Button) findViewById(R.id.btn);
-			spinner = (Spinner) findViewById(R.id.spinner);
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        EditText editText = (EditText) findViewById(R.id.editText);
+        Button btn = (Button) findViewById(R.id.btn);
 
-			ArrayAdapter adapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_spinner_item, friends);
-			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-			spinner.setAdapter(adapter);
-			
-			spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-					@Override
-					public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-							btn.setOnClickListener(new View.OnClickListener() {
-									@Override
-									public void onClick(View view) {
-											Toast.makeText(MainActivity.this, "You have selected "+ friends[i], Toast.LENGTH_SHORT).show();
-									}
-							});
-					}
-
-					@Override
-					public void onNothingSelected(AdapterView<?> adapterView) {
-							// Nothing Here
-					}
-			});
-	}
+        List stringList = new ArrayList(Arrays.asList(spinnerItems));
+        ArrayAdapter adapter = new ArrayAdapter(MainActivity.this, R.layout.spinner_item, stringList);
+        adapter.setDropDownViewResource(R.layout.spinner_item);
+        spinner.setAdapter(adapter);
+        
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String getText = editText.getText().toString();
+                stringList.add(getText);
+                adapter.notifyDataSetChanged();
+                Toast.makeText(MainActivity.this, "Item Added", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
 }
