@@ -10,7 +10,12 @@ public class MainActivity extends AppCompatActivity {
 			list = (ListView) findViewById(R.id.list);
 			listItems = getResources().getStringArray(R.array.friends);
 
-			ArrayAdapter adapter = new ArrayAdapter(MainActivity.this, R.layout.list_item, android.R.id.text1, listItems);
+			ArrayAdapter adapter = new ArrayAdapter(
+				MainActivity.this, 
+				android.R.layout.simple_list_item1, 
+				android.R.id.text1, 
+				listItems
+			);
 			list.setAdapter(adapter);
 
 			list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
