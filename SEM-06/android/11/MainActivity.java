@@ -14,8 +14,12 @@ public class MainActivity extends AppCompatActivity {
 		btn = (Button) findViewById(R.id.btn);
 
 		List stringList = new ArrayList(Arrays.asList(spinnerItems));
-		ArrayAdapter adapter = new ArrayAdapter(MainActivity.this, R.layout.spinner_item, stringList);
-		adapter.setDropDownViewResource(R.layout.spinner_item);
+		ArrayAdapter adapter = new ArrayAdapter(
+			MainActivity.this, 
+			android.R.layout.simple_spinner_item, 
+			stringList
+		);
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		spinner.setAdapter(adapter);
 
 		btn.setOnClickListener(new View.OnClickListener() {
