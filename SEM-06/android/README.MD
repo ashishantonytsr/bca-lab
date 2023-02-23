@@ -16,3 +16,4 @@
 12. &emsp; **Alert Dialog**
 13. &emsp; **List View**
 14. &emsp; **Menu Resource**
+15. &emsp; **Image View**
