@@ -9,26 +9,26 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/number"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter the number" />
+			android:id="@+id/number"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Enter the number" />
 
     <EditText
-        android:id="@+id/limit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter the limit" />
+			android:id="@+id/limit"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Enter the limit" />
 
     <Button
-        android:id="@+id/btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Show multiplication table" />
+			android:id="@+id/btn"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Show multiplication table" />
 
     <TextView
-        android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+			android:id="@+id/result"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
 
 </LinearLayout>
