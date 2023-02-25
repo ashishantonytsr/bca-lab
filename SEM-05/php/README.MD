@@ -22,4 +22,3 @@
 18. &emsp; **Keygen Element**
 19. &emsp; **Upload file**
 20. &emsp; **Login session**
-21. &emsp; **Delete & Update Database**
