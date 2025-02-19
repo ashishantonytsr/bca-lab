@@ -23,7 +23,8 @@
 				$query = "select * from login where username='$user' and password='$password'";
 				$result = pg_query($con, $query);
 
-				if (!$result)
+				$row = pg_fetch_row($result);
+				if (!$result or count($row)<=1) 
 					echo "Login Denied";
 				else
 					echo "User $user is successfully logged in";
