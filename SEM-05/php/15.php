@@ -23,7 +23,6 @@
 			if (!$display_query_result or count($row)<=1)  echo "Details Not Found";
 			else {
 				echo "<h2>Student MarkList</h2>";
-				$row = pg_fetch_row($display_query_result);
 				echo "Reg No.: $row[0]";
 				echo "<br>Name: $row[1]";
 				echo "<br>Mark: $row[2]";
